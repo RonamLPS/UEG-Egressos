@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal de Egressos - UEG</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo-icone">
+        <div class="container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+
+        <script>
+          function myFunction(x) {
+            x.classList.toggle("change");
+          }
+        </script>
+        <h2 class="logo">UEG-EGRESSOS</h2>
+      </div>
+      <div class="center-header">
+        <nav class="navigation">
+          <a href="#">Home<span></span></a>
+          <a href="#" class="active">Sobre<span></span></a>
+          <a href="#">Eventos<span></span></a>
+          <a href="#">Notícias<span></span></a>
+          <a href="#">Galeria<span></span></a>
+          <a href="#">Depoimentos<span></span></a>
+        </nav>
+      </div>
+      <input type="submit" value="Login" />
+    </header>
+    <div class="content-page">
+      <h1>SOBRE</h1>
+      <p class="par1">
+        Aqui vai uma informação
+      </p>
+      <p class="par2">
+        Aqui vai outra informação
+      </p>
+    </div>
+    <div class="image-body"></div>
+    <!--Java Script-->
+    <script src="script.js"></script>
+  </body>
+</html>
